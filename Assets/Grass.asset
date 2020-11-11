@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25c5c91a071fa5d49ba13ac4424af78b, type: 3}
+  m_Name: Grass
+  m_EditorClassIdentifier: 
+  SPEED: 0
+  HP: 100
+  DAME: 10
+  TIME_GROW1: 30
+  TIME_GROW2: 60
+  TIME_HUNGER: 10
+  TIME_DIE: 20
+  SIZE_SMALL: 0.5
+  SIZE_MEDIUM: 0.75
+  SIZE_BIG: 1
+  ADD_OXYGEN: 10
+  ADD_MONEY: 0
+  SPAWN_OXYGEN: 0
+  SPAWN_MONEY: 10
+  SHOP_VALUE: 2
+  EAT_TAG: 
+  normalSheet:
+  - {fileID: 21300000, guid: edcd0bd8f4aca57408b2b0e40809dc3d, type: 3}
+  - {fileID: 21300000, guid: 9c66dc218eabc9f4694d2320e6942448, type: 3}
+  attackedSheet:
+  - {fileID: 21300000, guid: edcd0bd8f4aca57408b2b0e40809dc3d, type: 3}
+  - {fileID: 21300000, guid: 9c66dc218eabc9f4694d2320e6942448, type: 3}
+  ghost: {fileID: 0}

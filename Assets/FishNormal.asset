@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25c5c91a071fa5d49ba13ac4424af78b, type: 3}
+  m_Name: FishNormal
+  m_EditorClassIdentifier: 
+  SPEED: 1
+  HP: 100
+  DAME: 10
+  TIME_GROW1: 50
+  TIME_GROW2: 100
+  TIME_HUNGER: 10
+  TIME_DIE: 20
+  SIZE_SMALL: 1.8
+  SIZE_MEDIUM: 2.4
+  SIZE_BIG: 3
+  ADD_OXYGEN: 10
+  ADD_MONEY: 0
+  SPAWN_OXYGEN: 0
+  SPAWN_MONEY: 10
+  SHOP_VALUE: 200
+  EAT_TAG: Grass
+  normalSheet: []
+  attackedSheet: []
+  ghost: {fileID: 0}
